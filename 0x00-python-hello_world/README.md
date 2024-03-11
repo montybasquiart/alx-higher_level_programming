@@ -51,7 +51,7 @@ Namespaces are one honking great idea -- let's do more of those!
    * You are not allowed to cast the variable number into a string
    * Your code must be 3 lines long
    * You have to use f-strings [tips](https://realpython.com/python-f-strings/)
-
+##
 4. Print float - [4-print_float.py](./4-print_float.py) - A script to print the float stored in the variable number with a precision of 2 digits.
    * You can find the source code here
     * The output of the program should be:
@@ -59,7 +59,7 @@ Namespaces are one honking great idea -- let's do more of those!
 	* followed by a new line
     * You are not allowed to cast number to string
     * You have to use f-strings
-
+##
 5. Print string - [5-print_string.py](./5-print_string.py) - A script to print 3 times a string stored in the variable str, followed by its first 9 characters.
 You can find the source code here
     * The output of the program should be:
@@ -69,13 +69,13 @@ You can find the source code here
     * followed by a new line
     * You are not allowed to use any loops or conditional statement
     * Your program should be maximum 5 lines long
-
+##
 6. Play with strings - [6-concat.py](./6-concat.py) - A script to print Welcome to Holberton School! using this [source code](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py)
    * You can find the source code here
    * You are not allowed to use any loops or conditional statements.
    * You have to use the variables str1 and str2 in your new line of code
    * Your program should be exactly 5 lines long
-
+##
 7. Copy - Cut - Paste - [7-edges.py](./7-edges.py) - Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/7-edges.py)
    * You can find the source code [here](./https://github.com/alx-tools/0x00.py/blob/master/6-concat.py)
    * You are not allowed to use any loops or conditional statements 
