@@ -1,12 +1,12 @@
 #  0x00-python-hello_world
 
+# A README file describing what each script is doing
+
 ## Resources
-Read or watch:
+_Read or watch:_
 
  * [The Python tutorial](https://docs.python.org/3/tutorial/index.html) (only the first three chapters below)
  * [Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
-
-## A README file describing what each script is doing
 
 ```
 Zen
@@ -33,6 +33,9 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+##
+# Tasks
+
 ##
 0. Run Python file - [0-run](./0-run) - A Shell script that runs a Python script.
    * The Python file name will be saved in the environment variable $PYFILE
