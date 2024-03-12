@@ -1,6 +1,6 @@
 #  0x00-python-hello_world
 
-# A README file describing what each script is doing
+## A README file describing what each script is doing
 
 ## Resources
 _Read or watch:_
