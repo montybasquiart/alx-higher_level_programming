@@ -24,4 +24,4 @@ __2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what
 ##
 __3. When I was having that alphabet soup, I never thought that it would pay off
 mandatory__ - [3-print_alphabt.py](./3-print_alphabt.py) - A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
-## 
+##
