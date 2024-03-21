@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def lowercase_alphabets():
-    """A function that prints ASCII alphabets in lowercase."""
+    """A function that prints ASCII alphabets in lowercase.
+    """
 
 
 # A program that prints the ASCII alphabet, in lowercase
