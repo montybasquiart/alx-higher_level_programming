@@ -4,7 +4,7 @@ def lowercase_alphabets():
 
 # A program that prints the ASCII alphabet, in lowercase
 for letter in "abcdefghijklmnopqrstuvwxyz":
-    print("ASCII lowercase {letter} alphabets".format(letter))
+    print(letter.format("letter"))
 
 # Call the function to print the lowercase alphabet without newlines
 lowercase_alphabets()
