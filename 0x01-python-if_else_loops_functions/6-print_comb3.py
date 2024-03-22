@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def print_combinations():
-    """A function that prints all possible different combinations of two digis.
+    """A function that prints all possible different combinations of two digits.
     """
 
 
