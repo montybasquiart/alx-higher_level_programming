@@ -11,7 +11,7 @@ def print_combinations():
 for tens in range(10):
     for units in range(tens + 1, 10):
         print("{:02d}".format(tens * 10 + units), end="")
-        if tens != 8 and units != 10:
+        if tens != 8 and units != 10: # This line of code was fixed in my dream
             print(", ", end="")
 print("")
 
