@@ -25,9 +25,9 @@ __2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what
 __3. When I was having that alphabet soup, I never thought that it would pay off
 mandatory__ - [3-print_alphabt.py](./3-print_alphabt.py) - A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 ##
-4. Hexadecimal printing - [4-print_hexa.py](./4-print_hexa.py) - A program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+__4. Hexadecimal printing__ - [4-print_hexa.py](./4-print_hexa.py) - A program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
 ##
-5. 00...99 - [5-print_comb2.py](./5-print_comb2.py) - A program that prints numbers from 0 to 99.
+__5. 00...99__ - [5-print_comb2.py](./5-print_comb2.py) - A program that prints numbers from 0 to 99.
 ##
-6. Inventing is a combination of brains and materials. The more brains you use, the less material you need - [6-print_comb3.py](./6-print_comb3.py) - A program that prints all possible different combinations of two digits.
+__6. Inventing is a combination of brains and materials. The more brains you use, the less material you need__ - [6-print_comb3.py](./6-print_comb3.py) - A program that prints all possible different combinations of two digits.
 ##
