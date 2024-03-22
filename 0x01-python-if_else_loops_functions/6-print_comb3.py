@@ -10,9 +10,10 @@ def print_combinations():
 
 for tens in range(10):
     for units in range(tens + 1, 10):
-        if tens != units:
-            print("{:02d}, ".format(tens * 10 + units), end="" if tens < units
-                  else "\n")
+        print("{:02d}".format(tens * 10 + units), end="")
+        if tens != 8 and units != 10:
+            print(", ", end="")
+print("")
 
 # Call the function to print all the possible combinations
 print_combinations()
