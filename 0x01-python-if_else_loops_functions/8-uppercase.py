@@ -1,13 +1,11 @@
-def uppercase(s):
+#!/usr/bin/python3
+def uppercase(str):
     """A Function that prints a string in UPPERCASE.
     """
-
-
-# Check if the character is a lowercase letter
-for i in range(len(str)):
-    if ord(str[i]) >= 97 and ord(str[i]) < 123:
-        letter = 32
-    else:
-        letter = 0
-        print("{:c}".format(ord(str[i] - letter), end="")
-print()
+    for char in str:
+        if ord(char) >= 97 and ord(char) < 123:
+            letter = 32
+        else:
+            letter = 0
+        print("{:c}".format(ord(char) - letter), end="")
+    print()
