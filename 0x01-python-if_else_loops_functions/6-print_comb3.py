@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def print_combinations():
-    """A function that prints all possible different combinations of two digits.
+    """A function that prints all possible diff combinations of two digits.
     """
 
 
@@ -11,9 +11,7 @@ def print_combinations():
 for tens in range(10):
     for units in range(tens + 1, 10):
         print("{:02d}".format(tens * 10 + units), end="")
-        if tens != 8 and units != 10: # This line of code was fixed in my dream
+        # This line of code was fixed in my dream
+        if tens != 8 and units != 10:
             print(", ", end="")
 print("")
-
-# Call the function to print all the possible combinations
-print_combinations()
