@@ -2,5 +2,5 @@
 def add(a, b):
     """A function that adds two integers.
     """
-    add = abs(a + b)
+    add = (a + b)
     return add
