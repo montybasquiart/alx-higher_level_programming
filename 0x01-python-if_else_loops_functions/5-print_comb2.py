@@ -9,6 +9,3 @@ def print_numbers():
 # Numbers are printed in ascending order with two digits
 for number in range(100):
     print("{:02d}".format(number), end=", " if number < 99 else "\n")
-
-# Call the function to print numbers from 0 to 99
-print_numbers()
