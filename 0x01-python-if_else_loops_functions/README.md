@@ -31,5 +31,13 @@ __5. 00...99__ - [5-print_comb2.py](./5-print_comb2.py) - A program that prints 
 ##
 __6. Inventing is a combination of brains and materials. The more brains you use, the less material you need__ - [6-print_comb3.py](./6-print_comb3.py) - A program that prints all possible different combinations of two digits.
 ##
-7. islower - [7-islower.py](./7-islower.py) - A function that checks for lowercase character.
+__7. islower__ - [7-islower.py](./7-islower.py) - A function that checks for lowercase character.
+##
+__8. To uppercase__ - [8-uppercase.py](./8-uppercase.py) - A function that prints a string in uppercase followed by a new line.
+##
+__9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important__ - [9-print_last_digit.py](./9-print_last_digit.py) - A function that prints the last digit of a number.
+##
+__10. a + b__ - [10-add.py](./10-add.py) - A function that adds two integers and returns the result.
+##
+__11. a ^ b__ - [11-pow.py](./11-pow.py) - A function that computes a to the power of b and return the value.
 ##
