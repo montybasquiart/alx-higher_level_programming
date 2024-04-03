@@ -41,3 +41,12 @@ __10. a + b__ - [10-add.py](./10-add.py) - A function that adds two integers and
 ##
 __11. a ^ b__ - [11-pow.py](./11-pow.py) - A function that computes a to the power of b and return the value.
 ##
+__12. Fizz Buzz__ - [12-fizzbuzz.py](./12-fizzbuzz.py) - A function that prints the numbers from 1 to 100 separated by a space.
+##
+__13. Insert in sorted linked list__ - [13-insert_number.c](./13-insert_number.c) - A function in C that inserts a number into a sorted singly linked list.
+##
+__14. Smile in the mirror__ - [100-print_tebahpla.py](./100-print_tebahpla.py) - A program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
+##
+__15. Remove at position__ - [101-remove_char_at.py](./101-remove_char_at.py) - A function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+##
+__16. ByteCode -> Python #2__ - [102-magic_calculation.py](./102-magic_calculation.py) - A function that printa Python bytecode
