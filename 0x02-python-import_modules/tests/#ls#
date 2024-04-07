@@ -125,4 +125,36 @@ Traceback (most recent call last):
   File "/home/vagrant/alx-higher_level_programming/0x02-python-import_modules/./0-add.py", line 7, in <module>
     add_it = add(a, b)
 NameError: name 'add' is not defined
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./0-add.py 
+1 + 2 = 3
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git add .
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git commit -m "Fixed pycodestyle requirement error and also updated import modules that were moved into tests folder"
+[main 89151ec] Fixed pycodestyle requirement error and also updated import modules that were moved into tests folder
+ 8 files changed, 154 insertions(+), 25 deletions(-)
+ rewrite 0x02-python-import_modules/1-calculation.py (61%)
+ create mode 100644 0x02-python-import_modules/tests/#ls#
+ create mode 120000 0x02-python-import_modules/tests/.#ls
+ create mode 100644 0x02-python-import_modules/tests/__init__.py
+ create mode 100644 0x02-python-import_modules/tests/__pycache__/__init__.cpython-310.pyc
+ create mode 100644 0x02-python-import_modules/tests/__pycache__/add_0.cpython-310.pyc
+ create mode 100644 0x02-python-import_modules/tests/__pycache__/calculator_1.cpython-310.pyc
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 3.11 KiB | 1.04 MiB/s, done.
+Total 13 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.        
+To https://github.com/montybasquiart/alx-higher_level_programming.git
+   55d47a8..89151ec  main -> main
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ l
+0-add.py*  1-calculation.py*  README.md  __pycache__/  tests/
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./0-add.py 
+Traceback (most recent call last):
+  File "/home/vagrant/alx-higher_level_programming/0x02-python-import_modules/./0-add.py", line 7, in <module>
+    add_it = add_0.add(a, b)
+NameError: name 'add_0' is not defined
 vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ 
