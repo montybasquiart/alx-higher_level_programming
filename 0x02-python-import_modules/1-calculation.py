@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     # This program imports functions and does some basic Maths
-    from tests import calculator_1 as cal
+    import calculator_1 as cal
     a = 10
     b = 5
 
