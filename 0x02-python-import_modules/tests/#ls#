@@ -1,0 +1,128 @@
+bash: /bin/brew: No such file or directory
+bash: /bin/brew: No such file or directory
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ chmod u+x calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./calculator_1.py 
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ la
+0-add.py  1-calculation.py  README.md  __pycache__  calculator_1.py  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ chmod u+x 1-calculation.py 
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+10 + 5 = 15
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py          1-calculation.py~  __pycache__      tests
+1-calculation.py  README.md          calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ rm 1-calculation.py~
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  calculator_1.py  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ cd tets
+bash: cd: tets: No such file or directory
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ cd tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+add_0.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ cd ..
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  calculator_1.py  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git add 1-calculation.py 
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git commit -m "performed first computation in the program to test the code"
+[main 6821e26] performed first computation in the program to test the code
+ 1 file changed, 13 insertions(+)
+ create mode 100755 0x02-python-import_modules/1-calculation.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git push
+=l
+=l: command not found
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  calculator_1.py  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+10 + 5 = 15
+10 - 5 = 5
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+  File "/home/vagrant/alx-higher_level_programming/0x02-python-import_modules/./1-calculation.py", line 23
+    print("{a} / {b} = {divide}".format(a=a, b=b, divide=divide), end="\n"))
+                                                                           ^
+SyntaxError: unmatched ')'
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  calculator_1.py  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ mv calculator_1.py ./tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ cd tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+add_0.py  calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ cd ..
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git add .
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git commit -m "compiled all program to do basic Maths"
+[main 55d47a8] compiled all program to do basic Maths
+ 3 files changed, 63 insertions(+), 2 deletions(-)
+ create mode 100644 0x02-python-import_modules/__pycache__/calculator_1.cpython-310.pyc
+ create mode 100755 0x02-python-import_modules/tests/calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.54 KiB | 790.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To https://github.com/montybasquiart/alx-higher_level_programming.git
+   6821e26..55d47a8  main -> main
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ pep8 1-calculation.py 
+1-calculation.py:11:80: E501 line too long (81 > 79 characters)
+1-calculation.py:15:80: E501 line too long (81 > 79 characters)
+1-calculation.py:19:80: E501 line too long (81 > 79 characters)
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1
+bash: ./1: No such file or directory
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+Traceback (most recent call last):
+  File "/home/vagrant/alx-higher_level_programming/0x02-python-import_modules/./1-calculation.py", line 5, in <module>
+    import calculator_1 as cal
+ModuleNotFoundError: No module named 'calculator_1'
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./1-calculation.py 
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ cd tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+__pycache__  add_0.py  calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ cat __init__.py
+cat: __init__.py: No such file or directory
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ touch __init__.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+__init__.py  __pycache__  add_0.py  calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+__init__.py  __pycache__  add_0.py  calculator_1.py  ls
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+__init__.py  __pycache__  add_0.py  calculator_1.py  ls
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ rm ls
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ ls
+__init__.py  __pycache__  add_0.py  calculator_1.py
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules/tests$ cd ..
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ls
+0-add.py  1-calculation.py  README.md  __pycache__  tests
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ emacs 0-add.py 
+emacs: Terminal type "dumb" is not powerful enough to run Emacs.
+It lacks the ability to position the cursor.
+If that is not the actual type of terminal you have,
+use the Bourne shell command 'TERM=...; export TERM' (C-shell:
+'setenv TERM ...') to specify the correct type.  It may be necessary
+to do 'unset TERMINFO' (C-shell: 'unsetenv TERMINFO') as well.
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ ./0-add.py 
+Traceback (most recent call last):
+  File "/home/vagrant/alx-higher_level_programming/0x02-python-import_modules/./0-add.py", line 7, in <module>
+    add_it = add(a, b)
+NameError: name 'add' is not defined
+vagrant@ubuntu-focal:~/alx-higher_level_programming/0x02-python-import_modules$ 
