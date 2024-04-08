@@ -4,7 +4,7 @@ if __name__ == "__main__":
     """A program that imports functions and handles basic operations.
     """
     import sys
-    from calculator_1  import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
 
     if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
