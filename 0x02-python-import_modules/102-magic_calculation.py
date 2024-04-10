@@ -2,6 +2,8 @@
 def magic_calculation(a, b):
     """A program that does some Python magic.
     """
+    from magic_calculation import add, sub
+    
     if a < b:
         c = add(a, b)
         for i in range(4, 6):
