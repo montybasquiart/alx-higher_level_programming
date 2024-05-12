@@ -3,10 +3,10 @@ def search_replace(my_list, search, replace):
     """A function that replaces all occurences of an element by another in a new
     list.
     """
-    new_list = []
-    for numbers in my_list:
-        if numbers == search:
-            new_list.append(replace)
+    replaced_list = [0 for i in range(len(my_list))]
+    for numbers in range(len(my_list)):
+        if my_list[numbers] == search:
+            replaced_list[numbers] = replace
         else:
-            new_list.append(numbers)
-    return new_list
+            replaced_list[numbers] = my_list[numbers]
+    return replaced_list
