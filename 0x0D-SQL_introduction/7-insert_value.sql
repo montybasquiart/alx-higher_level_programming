@@ -1,4 +1,4 @@
 -- Inserts a new row in the table.
-INSERT into first_table (id, name)
-(1, '89'), -- row 1
-(2, 'Best School'); -- row 2
+INSERT INTO first_table (id, name)
+(id, '89'), -- row 1
+(name, 'Best School'); -- row 2
