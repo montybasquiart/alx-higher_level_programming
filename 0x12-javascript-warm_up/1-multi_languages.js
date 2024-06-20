@@ -1,5 +1,4 @@
-#!/usr/local/bin/node
-// A script that prints 3 lines
+#!/usr/bin/node
 
 console.log('C is fun');
 console.log('Python is cool');
