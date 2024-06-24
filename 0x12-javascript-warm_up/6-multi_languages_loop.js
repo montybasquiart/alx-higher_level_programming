@@ -3,6 +3,10 @@
 */
 const threeLines = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-for (let index = 0; index < threeLines.length; index++) {
+/* for (let index = 0; index < threeLines.length; index++) {
   console.log(threeLines[index]);
+}
+*/
+for (const index of threeLines) {
+  console.log(index);
 }
