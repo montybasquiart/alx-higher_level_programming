@@ -7,6 +7,6 @@ def safe_print_division(a, b):
     except (ZeroDivisionError, TypeError):
         result = None
     finally:
-        print("Inside result: {}".format(result if 'result' in locals() else None))
-        
+        print("Inside result: {}".format(
+            result if 'result' in locals()else None))
     return result
