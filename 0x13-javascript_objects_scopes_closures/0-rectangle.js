@@ -1,1 +1,1 @@
-class Rectangle {}
+export default class Rectangle {}
